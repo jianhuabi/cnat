@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/clientset/versioned"
-	cnatv1alpha1 "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/clientset/versioned/typed/cnat/v1alpha1"
-	fakecnatv1alpha1 "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/clientset/versioned/typed/cnat/v1alpha1/fake"
+	clientset "cnat/cnat-client-go/pkg/generated/clientset/versioned"
+	cnatv1alpha1 "cnat/cnat-client-go/pkg/generated/clientset/versioned/typed/cnat/v1alpha1"
+	fakecnatv1alpha1 "cnat/cnat-client-go/pkg/generated/clientset/versioned/typed/cnat/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

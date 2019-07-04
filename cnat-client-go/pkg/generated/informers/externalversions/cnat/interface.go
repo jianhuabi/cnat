@@ -19,8 +19,8 @@ limitations under the License.
 package cnat
 
 import (
-	v1alpha1 "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/informers/externalversions/cnat/v1alpha1"
-	internalinterfaces "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/informers/externalversions/internalinterfaces"
+	v1alpha1 "cnat/cnat-client-go/pkg/generated/informers/externalversions/cnat/v1alpha1"
+	internalinterfaces "cnat/cnat-client-go/pkg/generated/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

@@ -19,7 +19,7 @@ limitations under the License.
 package versioned
 
 import (
-	cnatv1alpha1 "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/clientset/versioned/typed/cnat/v1alpha1"
+	cnatv1alpha1 "cnat/cnat-client-go/pkg/generated/clientset/versioned/typed/cnat/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

@@ -20,11 +20,11 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/klog"
 
-	cnatv1alpha1 "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/apis/cnat/v1alpha1"
-	clientset "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/clientset/versioned"
-	cnatscheme "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/clientset/versioned/scheme"
-	informers "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/informers/externalversions/cnat/v1alpha1"
-	listers "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/listers/cnat/v1alpha1"
+	cnatv1alpha1 "cnat/cnat-client-go/pkg/apis/cnat/v1alpha1"
+	clientset "cnat/cnat-client-go/pkg/generated/clientset/versioned"
+	cnatscheme "cnat/cnat-client-go/pkg/generated/clientset/versioned/scheme"
+	informers "cnat/cnat-client-go/pkg/generated/informers/externalversions/cnat/v1alpha1"
+	listers "cnat/cnat-client-go/pkg/generated/listers/cnat/v1alpha1"
 )
 
 const controllerAgentName = "cnat-controller"

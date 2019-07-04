@@ -29,8 +29,8 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/klog"
 
-	clientset "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/clientset/versioned"
-	informers "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/informers/externalversions"
+	clientset "cnat/cnat-client-go/pkg/generated/clientset/versioned"
+	informers "cnat/cnat-client-go/pkg/generated/informers/externalversions"
 )
 
 var (

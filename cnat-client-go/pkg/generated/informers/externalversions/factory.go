@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/clientset/versioned"
-	cnat "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/informers/externalversions/cnat"
-	internalinterfaces "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/generated/informers/externalversions/internalinterfaces"
+	versioned "cnat/cnat-client-go/pkg/generated/clientset/versioned"
+	cnat "cnat/cnat-client-go/pkg/generated/informers/externalversions/cnat"
+	internalinterfaces "cnat/cnat-client-go/pkg/generated/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

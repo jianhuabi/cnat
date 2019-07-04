@@ -19,7 +19,7 @@ limitations under the License.
 package scheme
 
 import (
-	cnatv1alpha1 "github.com/programming-kubernetes/cnat/cnat-client-go/pkg/apis/cnat/v1alpha1"
+	cnatv1alpha1 "cnat/cnat-client-go/pkg/apis/cnat/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
