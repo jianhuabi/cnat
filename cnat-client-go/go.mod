@@ -1,6 +1,6 @@
 // This is a generated file. Do not edit directly.
 
-module github.com/jianbuabi/cnat
+module github.com/jianhuabi/cnat
 
 go 1.12
 
